@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("../font/poppins.woff2");
+  font-display: swap;
+}
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
+
+.navbar-hamburger-line-active:first-child {
+  transform: rotate(45deg);
+  top: 43%;
+}
+
+.navbar-hamburger-line-active:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-hamburger-line-active:last-child {
+  transform: rotate(-45deg);
+  top: 43%;
+}

@@ -1,0 +1,32 @@
+💼 Nama Perusahaan: Skylink Capital
+🏢 Jenis Perusahaan:
+Perusahaan investasi dan konsultan keuangan internasional.
+
+📋 Layanan yang Ditawarkan:
+- Manajemen portofolio investasi
+- Konsultasi keuangan perusahaan
+- Strategi merger & akuisisi
+- Financial analytics & AI-powered risk analysis
+- Layanan premium untuk investor individu kelas atas
+
+🎨 Gaya Desain Web:
+Look & Feel: Modern, profesional, mewah
+Warna: Deep blue, silver/abu-abu metalik, aksen emas soft (seperti fintech elit)
+Hero section: Gedung pencakar langit, headline seperti:
+“Empowering Your Financial Future With Smart Investment”
+Animasi ringan: Scroll reveal untuk statistik, grafik animasi untuk pertumbuhan klien
+
+Komponen Tailwind yang bisa eksplor:
+Navbar sticky transparan berubah solid saat scroll
+Card grid untuk layanan
+Testimoni klien pakai carousels
+CTA (Call to Action) besar dengan background image dan overlay
+
+| Warna | Nama        | Kode HEX  | Keterangan                                              |
+| ----- | ----------- | --------- | ------------------------------------------------------- |
+| 🟦    | Deep Navy   | `#0A1D37` | Warna utama — memberi kesan profesional & eksklusif     |
+| 🔵    | Royal Blue  | `#1E3A8A` | Warna sekunder — kesan cerdas, tepercaya                |
+| ⚪     | Soft Silver | `#E5E7EB` | Background terang atau border — kesan bersih dan modern |
+| 🔘    | Dark Gray   | `#374151` | Teks atau elemen penyeimbang                            |
+| 🟡    | Gold Accent | `#FACC15` | Highlight/CTA/Icon — kesan prestise                     |
+| ⚫     | Jet Black   | `#111827` | Untuk footer/background kontras tinggi                  |

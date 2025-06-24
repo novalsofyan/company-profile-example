@@ -1,0 +1,16 @@
+{
+  "name": "company-profile-example",
+  "version": "1.0.0",
+  "description": "Simple company profile example",
+  "main": "app.js",
+  "scripts": {
+    "r-tcss": "npx @tailwindcss/cli -i ./src/css/tailwind.css -o ./public/css/main.css --watch",
+    "m-tcss": "npx @tailwindcss/cli -o ./public/css/main-final.css --minify"
+  },
+  "author": "Nosora",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}
