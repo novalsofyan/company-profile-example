@@ -10,16 +10,16 @@
   --font-poppins: "Poppins", sans-serif;
 }
 
-.navbar-hamburger-line-active:first-child {
+.navbar-hamburger-line:first-child.active {
   transform: rotate(45deg);
   top: 43%;
 }
 
-.navbar-hamburger-line-active:nth-child(2) {
+.navbar-hamburger-line:nth-child(2).active {
   opacity: 0;
 }
 
-.navbar-hamburger-line-active:last-child {
+.navbar-hamburger-line:last-child.active {
   transform: rotate(-45deg);
   top: 43%;
 }

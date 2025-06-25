@@ -7,14 +7,61 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body class="font-poppins">
-    <nav class="bg-[#0A1D37] w-[100dvw] h-[60px] fixed flex justify-center items-center-safe select-none">
-      <div class="navbar-wrapper w-[80dvw] h-[100%] flex items-center-safe relative">
-        <div class="navbar-hamburger w-[35px] h-[25px] relative md:hidden">
-          <span class="navbar-hamburger-line bg-white w-[100%] h-[4px] rounded-[2px] absolute top-0"></span>
-          <span class="navbar-hamburger-line bg-white w-[100%] h-[4px] rounded-[2px] absolute top-[43%]"></span>
-          <span class="navbar-hamburger-line bg-white w-[100%] h-[4px] rounded-[2px] absolute bottom-0"></span>
+    <nav class="bg-[rgba(10,29,55,0.90)] w-full h-[60px] fixed flex justify-center items-center-safe select-none z-50">
+      <div class="navbar-wrapper w-[80dvw] h-[60px] flex items-center-safe relative max-w-[1200px] z-51">
+        <div class="navbar-hamburger w-[30px] h-[25px] relative cursor-pointer md:hidden">
+          <span class="navbar-hamburger-line bg-white w-[100%] h-[4px] rounded-[2px] absolute top-0 transition-all duration-300"></span>
+          <span class="navbar-hamburger-line bg-white w-[100%] h-[4px] rounded-[2px] absolute top-[43%] transition-all duration-300"></span>
+          <span class="navbar-hamburger-line bg-white w-[100%] h-[4px] rounded-[2px] absolute top-[80%] transition-all duration-300"></span>
+        </div>
+
+        <div
+          class="navbar-menu-wrapper fixed left-[-81dvw] md:translate-x-0 top-0 translate-y-[60px] w-[80dvw] h-dvh bg-[rgba(10,29,55,0.90)] md:bg-[rgba(0,0,0,0)] transition-transform duration-300 flex flex-col md:flex-row md:items-center md:justify-between md:left-0 md:static md:w-[100%] md:h-[100%] md:translate-y-[0] z-51"
+        >
+          <!-- Logo -->
+          <div class="logo w-full mt-[10px] md:mt-[0] md:w-auto pl-[10dvw] md:pl-0 md:pr-4">
+            <img src="./image/logo.png" alt="Logo" class="h-[60px] w-auto" />
+          </div>
+
+          <!-- Menu -->
+          <ul class="navbar-menu pl-[10dvw] md:pl-0 md:flex md:h-[100%] md:justify-end">
+            <li
+              class="navbar-menu-list hover:text-[#FACC15] text-white self-center text-[clamp(1.1rem,2dvw,1.6rem)] font-semibold my-[20px] md:my-0 md:mx-[10px] transition-colors duration-300"
+            >
+              <a href="#">Home</a>
+            </li>
+            <li
+              class="navbar-menu-list hover:text-[#FACC15] text-white self-center text-[clamp(1.1rem,2dvw,1.6rem)] font-semibold my-[20px] md:my-0 md:mx-[10px] transition-colors duration-300"
+            >
+              <a href="#">Services</a>
+            </li>
+            <li
+              class="navbar-menu-list hover:text-[#FACC15] text-white self-center text-[clamp(1.1rem,2dvw,1.6rem)] font-semibold my-[20px] md:my-0 md:mx-[10px] transition-colors duration-300"
+            >
+              <a href="#">About</a>
+            </li>
+            <li
+              class="navbar-menu-list hover:text-[#FACC15] text-white self-center text-[clamp(1.1rem,2dvw,1.6rem)] font-semibold my-[20px] md:my-0 md:mx-[10px] transition-colors duration-300"
+            >
+              <a href="#">Contacts</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
+
+    <main class="content-wrapper">
+      <div
+        class="content-hero text-white h-dvh bg-[url(../image/background-opening.jpg)] bg-no-repeat bg-cover bg-fixed text-center flex flex-col justify-center items-center pt-[60px] relative"
+      >
+        <div class="content-hero-text absolute z-1">
+          <h1 class="font-bold text-[clamp(1.4rem,8dvw,4rem)]">Skylink Capital Corp.</h1>
+          <h2 class="font-bold text-[clamp(0.7rem,4dvw,2rem)]">Empowering Your Financial Future</h2>
+        </div>
+        <div class="content-hero-dim bg-black w-full h-dvh absolute top-0 opacity-45"></div>
+      </div>
+    </main>
+
+    <script src="./js/frontEnd.js"></script>
   </body>
 </html>
