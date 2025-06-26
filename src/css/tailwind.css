@@ -22,6 +22,14 @@
   .card-base {
     @apply w-[230px] h-[230px] bg-white shadow-md flex flex-col self-center justify-center select-none;
   }
+
+  .button-offers-detail {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-7 rounded-full z-2 self-center cursor-pointer transition-colors;
+  }
+
+  .paragraph-about {
+    @apply text-justify text-lg pl-5 pr-5;
+  }
 }
 
 .navbar-hamburger-line:first-child.active {
