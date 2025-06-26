@@ -10,6 +10,20 @@
   --font-poppins: "Poppins", sans-serif;
 }
 
+@layer components {
+  .card-wrapper {
+    @apply cursor-grab w-full max-w-[1000px] grid grid-flow-col gap-7 overflow-hidden md:flex md:flex-wrap md:overflow-auto md:justify-center md:cursor-default p-4;
+  }
+
+  .card-wrapper.dragging {
+    @apply cursor-grabbing md:cursor-default;
+  }
+
+  .card-base {
+    @apply w-[230px] h-[230px] bg-white shadow-md flex flex-col self-center justify-center select-none;
+  }
+}
+
 .navbar-hamburger-line:first-child.active {
   transform: rotate(45deg);
   top: 43%;
